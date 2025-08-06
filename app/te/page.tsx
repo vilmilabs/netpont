@@ -1,8 +1,11 @@
 import React from 'react'
+import { ClerkProvider, SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/nextjs'
 
 const te_profil = () => {
   return (
-    <div>te_profil</div>
+    <div>
+        <div ><UserButton /></div>
+    </div>
   )
 }
 
