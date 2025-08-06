@@ -25,9 +25,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
         {children}
+        <footer>
+          Vilmao NetPont © 2025. All rights Reserved.
+          <br />
+          <a href="/info/" className="text-xl font-light text-emerald-200">_ INFO _</a>
+        </footer>
       </body>
     </html>
   );
