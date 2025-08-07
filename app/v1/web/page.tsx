@@ -1,4 +1,5 @@
 import { UserButton } from '@clerk/nextjs'
+import Link from 'next/link'
 import React from 'react'
 
 const v1_web = () => {
@@ -13,10 +14,10 @@ const v1_web = () => {
             </div>
 
             <div >
-                <a href="/te/?profil=52141te_te"className="text-2xl text-amber-500 flex">
+                <Link href="/te/?profil=52141te_te"className="text-2xl text-amber-500 flex">
                 <UserButton />
                 <div className='underline hover:underline-offset-8 hover:cursor-pointer'>Profilom</div>
-                </a>
+                </Link>
             </div>
 
             
